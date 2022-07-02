@@ -14,10 +14,15 @@ y= random.randint(0,99)
 
 print(" lottery number is ",str(y))
 
-if x%y==0:
+if x==y:
+
   print(" 100 $")
+
 elif (x//10)==(y//10) or (x%10)==(y%10) :
+
   print("50$")
+
 else :
+
   print("0$")
   
